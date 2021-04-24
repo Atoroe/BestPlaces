@@ -23,7 +23,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Nbg-hN-8nC">
-                                            <rect key="frame" x="20" y="51" width="374" height="98.5"/>
+                                            <rect key="frame" x="20" y="58" width="374" height="91.5"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyj-ff-mbd">
                                                     <rect key="frame" x="0.0" y="0.0" width="45" height="17"/>
@@ -32,13 +32,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="workTime" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeQ-WQ-Ee0">
-                                                    <rect key="frame" x="0.0" y="41" width="56" height="17"/>
+                                                    <rect key="frame" x="0.0" y="37.5" width="56" height="17"/>
                                                     <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="13"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc1-WL-SzV">
-                                                    <rect key="frame" x="0.0" y="81.5" width="28.5" height="17"/>
+                                                    <rect key="frame" x="0.0" y="74.5" width="28.5" height="17"/>
                                                     <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="13"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -106,7 +106,7 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="Noh-2F-Oj1" secondAttribute="trailing" id="jZA-n1-Upx"/>
                                         <constraint firstItem="5fi-99-WTl" firstAttribute="top" secondItem="Nbg-hN-8nC" secondAttribute="bottom" id="pRt-xa-QGn"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="Nbg-hN-8nC" secondAttribute="trailing" id="t0X-t4-dqU"/>
-                                        <constraint firstItem="Nbg-hN-8nC" firstAttribute="top" secondItem="9Fq-Nb-vBA" secondAttribute="bottom" id="uSw-7N-PnE"/>
+                                        <constraint firstItem="Nbg-hN-8nC" firstAttribute="top" secondItem="9Fq-Nb-vBA" secondAttribute="bottom" constant="7" id="uSw-7N-PnE"/>
                                         <constraint firstItem="9Fq-Nb-vBA" firstAttribute="trailing" secondItem="oUa-3W-XMe" secondAttribute="trailingMargin" id="z6z-6d-KUa"/>
                                     </constraints>
                                 </tableViewCellContentView>

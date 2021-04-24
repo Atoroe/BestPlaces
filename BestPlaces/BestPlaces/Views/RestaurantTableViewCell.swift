@@ -23,7 +23,9 @@ class RestaurantTableViewCell: UITableViewCell {
         super.awakeFromNib()
         
         priceLabel.textColor = .gray
-        titleView.layer.cornerRadius = 10
+        
+        titleView.roundCorners()
+        titleView.dropShadow()
     }
 
     func setCell(by data: Restaurants) {
