@@ -16,12 +16,16 @@ class RestaurantTableViewCell: UITableViewCell {
     @IBOutlet weak var workTimeLabel: UILabel!
     @IBOutlet weak var shortDescriptionLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var titleView: UIView!
     @IBOutlet weak var interiorImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
         priceLabel.textColor = .gray
+        
+        titleView.roundCorners()
+        titleView.dropShadow()
     }
 
     func setCell(by data: Restaurants) {
